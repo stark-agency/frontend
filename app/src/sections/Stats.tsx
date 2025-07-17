@@ -19,7 +19,7 @@ export default function Stats({ isDark, starkOrange }: StatsProps) {
               className={`text-lg transition-colors duration-300 tracking-wide ${isDark ? "text-gray-300" : "text-gray-600"}`}
               style={{ fontFamily: "Lato, sans-serif" }}
             >
-              AI-Driven Agency in Palestine
+              AI-Driven Agency
             </p>
           </div>
           <div className="p-6">

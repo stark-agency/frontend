@@ -41,7 +41,7 @@ export default function CoreValues({ isDark, starkOrange }: CoreValuesProps) {
             {
               icon: Lightbulb,
               title: "Creativity",
-              desc: "We plan, act, and deliver in ways no agency has done before — from being Palestine's first AI-driven marketing agency to executing large-scale tech solutions no one else has touched.",
+              desc: "We plan, act, and deliver in ways no agency has done before — from being first AI-driven marketing agency to executing large-scale tech solutions no one else has touched.",
             },
             { icon: Check, title: "Excellence", desc: "We deliver world-class quality in every detail." },
             {

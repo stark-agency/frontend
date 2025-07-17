@@ -18,7 +18,7 @@ const Hero: React.FC<HeroProps> = ({ isDark, starkOrange }) => (
           fontFamily: "Montserrat, sans-serif",
         }}
       >
-        🚀 Palestine's First AI-Driven Marketing Agency
+        🚀 First AI-Driven Marketing Agency
       </div>
       <h1
         className={`text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight transition-colors duration-300 ${
@@ -29,10 +29,10 @@ const Hero: React.FC<HeroProps> = ({ isDark, starkOrange }) => (
         Strategy. Creativity. Code.<br />
         <span style={{ color: starkOrange }}>Delivered at Scale.</span>
       </h1>
-      <HeroText style={{ fontFamily: "Lato, sans-serif" }}>
+      <HeroText isDark={isDark} style={{ fontFamily: "Lato, sans-serif" }}>
         AI-Driven Marketing. Scalable Tech. Unstoppable Brands.
       </HeroText>
-      <HeroText style={{ fontFamily: "Lato, sans-serif" }}>
+      <HeroText isDark={isDark} style={{ fontFamily: "Lato, sans-serif" }}>
         Your Local Partner for Global Ambition across the MENA region and beyond.
       </HeroText>
       <ButtonGroup isDark={isDark} starkOrange={starkOrange} />
