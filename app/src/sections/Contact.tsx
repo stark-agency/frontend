@@ -56,8 +56,8 @@ export default function Contact({ isDark, starkOrange }: ContactProps) {
                       ? "bg-gray-700 border-gray-600 text-white placeholder:text-gray-400"
                       : "bg-white border-gray-300 text-gray-900 placeholder:text-gray-500"
                   }`}
-                  style={{ fontFamily: "Lato, sans-serif" }}
                 />
+                
                 <TextInput
                   placeholder="Last Name"
                   className={`transition-colors px-3 duration-300 rounded-md border ${
@@ -65,7 +65,6 @@ export default function Contact({ isDark, starkOrange }: ContactProps) {
                       ? "bg-gray-700 border-gray-600 text-white placeholder:text-gray-400"
                       : "bg-white border-gray-300 text-gray-900 placeholder:text-gray-500"
                   }`}
-                  style={{ fontFamily: "Lato, sans-serif" }}
                 />
               </div>
               <div className="grid md:grid-cols-2 gap-4">
@@ -77,7 +76,6 @@ export default function Contact({ isDark, starkOrange }: ContactProps) {
                             ? "bg-gray-700 border-gray-600 text-white placeholder:text-gray-400"
                             : "bg-white border-gray-300 text-gray-900 placeholder:text-gray-500"
                     }`}
-                    style={{ fontFamily: "Lato, sans-serif" }}
                 />
                 <TextInput
                     placeholder="Company Name"
@@ -86,7 +84,6 @@ export default function Contact({ isDark, starkOrange }: ContactProps) {
                             ? "bg-gray-700 border-gray-600 text-white placeholder:text-gray-400"
                             : "bg-white border-gray-300 text-gray-900 placeholder:text-gray-500"
                     }`}
-                    style={{ fontFamily: "Lato, sans-serif" }}
                 />
               </div>
               <textarea
